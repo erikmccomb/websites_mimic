@@ -2,3 +2,58 @@ body{
   background: gray;
 }
 
+#name {
+  text-align: center;
+}
+
+.container{
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.no-border{
+  border: none;
+}
+
+.half {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 25px;
+}
+
+.half ul{
+  list-style: none;
+}
+
+#menu{
+width: 19%;
+display: inline-block;
+overflow: hidden;
+border: 3px dashed black;
+vertical-align: top;
+padding-top: 20px;
+height: 200px;
+}
+
+#menu ul{
+  list-style: disc;
+  padding-left: 20px;
+}
+
+#hours{
+  border-left: 5px solid black;
+}
+#img_container{
+  width: 79%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#img_container img{
+  display: block;
+  margin: 0 auto;
+}
