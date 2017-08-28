@@ -21,6 +21,7 @@ table#vc_to {
   background-color: lightblue;
   border-collapse: collapse;
   padding: 10px 20px;
+  text-align: center;
 }
 
 #vc_to, #vc_to td {
