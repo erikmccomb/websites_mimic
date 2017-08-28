@@ -1,3 +1,7 @@
+body {
+	line-height: 1;
+}
+
 #my_website {
  text-align: center;
  border-top: 1px solid lightgrey; 
@@ -11,8 +15,15 @@ h1{
   margin-bottom: 15px;
 }
 
-#vc_to table {
+
+table#vc_to {
+  width: 100%;
   background-color: lightblue;
+  border-collapse: collapse;
+  padding: 10px 20px;
+}
+
+#vc_to, #vc_to td {
   border: 2px solid blue;
 }
 
@@ -22,7 +33,66 @@ h1{
   text-align: center;
 }
 
-#sevenby table, #sevenby th, #sevenby td{
+
+#sevenby td, #sevenby th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table#sevenby{
+  width: 90%;
+  margin-top: 40px;
   background-color: lightgray;
-  border: 1px black solid;
+  border-collapse: separate;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#fivethings {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#fivethings th {
+  padding-bottom: 20px;
+}
+
+.circle {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.square {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  border: 3px solid black;
+}
+.rabbit {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-image: url("/Users/Erik/Desktop/dpl/week2/day5/websites_mimic/1_web/images/rabbit.jpg");
+  background-size: contain;
+  border: 3px solid blue;
+}
+
+.column {
+  width: 33%;
+  display: inline-block;
+}
+
+.box {
+  width: 100%;
+  padding-top: 40px;
+  margin-top: 20px;
+  border-top: 2px solid gray;
 }
