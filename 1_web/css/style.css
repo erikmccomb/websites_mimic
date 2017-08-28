@@ -1,0 +1,28 @@
+#my_website {
+ text-align: center;
+ border-top: 1px solid lightgrey; 
+ border-bottom: 2px solid lightgrey;
+ margin-before: 0px;
+ padding-top: 0px;
+}
+
+h1{
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#vc_to table {
+  background-color: lightblue;
+  border: 2px solid blue;
+}
+
+#sevenby table {
+  margin: auto;
+  width: 85%;
+  text-align: center;
+}
+
+#sevenby table, #sevenby th, #sevenby td{
+  background-color: lightgray;
+  border: 1px black solid;
+}
